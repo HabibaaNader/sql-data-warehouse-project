@@ -1,4 +1,6 @@
-//EXEC bronze.load_bronze
+/*
+EXEC bronze.load_bronze (to execute)
+/*
 IF OBJECT_ID('bronze.load_bronze', 'P') IS NOT NULL
     DROP PROCEDURE bronze.load_bronze;
 GO
